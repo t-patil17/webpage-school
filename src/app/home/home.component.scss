@@ -1,0 +1,134 @@
+
+.bg{
+    background-color: #0f3b27cb;
+    
+}
+
+.bg .head {
+    text-align: center;
+    padding-top: 25px;
+    color: aliceblue;
+    padding-bottom: 15px;
+}
+
+.bg .image{
+    padding: 10px 120px;
+}
+
+.paragraph span{
+color: red;
+}
+
+.paragraph{
+    text-align: center;
+}
+
+.text-head {
+   text-align: center;
+}
+.text-head pre {
+    color: blue;
+    font-weight: bold;
+}
+.text-head h6 {
+    color:chocolate;
+    font-weight: bold;
+}
+
+.small .card .card-title{
+    color: rgb(39, 39, 195);
+    font-size: 12px ;
+    text-align: center;
+}
+
+.small .card .card-text{
+    font-weight:bold;
+}
+
+
+// card overlay property 
+.effect {
+    position: relative;
+    width: 100%;
+  }
+  
+  .effect .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .effect .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: blue;
+  }
+  
+  .effect:hover .overlay {
+    opacity: 0.6;
+  
+  }
+  
+  .text {
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+  .principal {
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid gray;
+    width: 70em;
+    padding: 50px;
+  }
+  .principal img{
+    width: 32em;
+
+  }
+
+  .principal h6 {
+    font-weight: bold;
+    color: #0032a0;
+    font-size:small;
+  }
+
+  .principal h5{
+    font-weight: bold;
+    color: #000E67;
+  }
+  .principal p {
+    color: #000E67;
+    font-weight:500;
+    text-align: start;
+    padding: 10px;
+    
+  }
+
+  .button{
+    margin-top: 50px;
+  }
+  .button .btn {
+    display: flex;
+    margin-left: 10em;
+    margin-top: 10px;
+    padding: 10px 50px;
+    background-color: #000E67;
+    
+  }
+
+ 

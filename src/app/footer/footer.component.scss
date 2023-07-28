@@ -1,0 +1,21 @@
+.footer {
+    background-color: #000E67;
+    color: aliceblue;
+    font-weight: bold;
+}
+.footer .foot h6{
+    display: flex;
+    justify-content:space-around;
+    padding-right: 2em;
+}
+.footer .foot pre{
+    display: flex;
+    justify-content:space-around;
+    // margin-left: 80px
+    padding-left: 4em;
+    font-size:17px;
+
+}
+.foot h6{
+    padding-top: 45px ;
+}
